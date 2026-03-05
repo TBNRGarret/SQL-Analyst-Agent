@@ -21,7 +21,7 @@ The system consists of 5 specialized nodes:
 
 ## 🛠️ Tech Stack
 - **Core Framework**: LangGraph, LangChain
-- **LLM**: Google Vertex AI (Gemini 1.5/2.0 Flash)
+- **LLM**: Google Vertex AI (Gemini 2.5 Flash/Pro)
 - **API Backend**: FastAPI, Uvicorn
 - **Frontend**: Streamlit
 - **Data Handling**: Pandas, SQLite
@@ -30,7 +30,7 @@ The system consists of 5 specialized nodes:
 ## 🚀 Getting Started
 
 ### 1. Prerequisites
-- Python 3.10+
+- Python 3.11+
 - A Google Cloud Project with Vertex AI API enabled.
 - A Service Account JSON key.
 
@@ -38,4 +38,3 @@ The system consists of 5 specialized nodes:
 ```bash
 git clone [https://github.com/TBNRGarret/multi-agent-data-analyst.git](https://github.com/TBNRGarret/multi-agent-data-analyst.git)
 cd multi-agent-data-analyst
-pip install -r requirements.txt
